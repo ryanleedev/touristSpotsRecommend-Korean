@@ -11,7 +11,7 @@ const db_config = require('./db_config.json')
 var url = require('url');
 
 //DB
-const db= mysql.createConnection({
+const db= mysql.createPool({
     host : db_config.host,
     user : db_config.user,
     password : db_config.password,
