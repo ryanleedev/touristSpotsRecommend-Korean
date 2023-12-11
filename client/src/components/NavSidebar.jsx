@@ -149,7 +149,7 @@ export const NavSidebar = (props) => {
           
 
           <div style={{padding:"0px 0px 0px 0px"}}>
-            <div id='select' style={{width:"268px", fontSize:"25px"}}>
+            <div id='select' style={{width:"20vw", fontSize:"25px"}}>
               <div id='calendar'>
                 <div style={{border:"1px solid #E0E0E0", borderRadius:"10px", padding:"2px 10px 2px 10px" }} onClick={e => setDropdownVisibility(!dropdownVisibility)}>
                   📆 Date &nbsp; {year + '-' + month + '-' + day}
@@ -201,7 +201,7 @@ export const NavSidebar = (props) => {
           <div
             className={``}
             // className={`fixed inset-y-0 left-0 z-30 w-1\/2  overflow-y-auto transition duration-300 ease-out transform translate-x-0 bg-white border-r-2 lg:translate-x-0 lg:static lg:inset-0`}
-            style={{width:"400px", height:"60vh", position:"absolute", overflowY: "scroll", }}
+            style={{width:"31vw", height:"61vh", position:"absolute", overflowY: "scroll", }}
             // style={{height:"68vh", position:"absolute", overflowY: "scroll", }}
             > 
             <ul>
